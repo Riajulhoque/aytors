@@ -1,0 +1,1402 @@
+// manu starts here 
+
+#navdesign{
+  .container{
+
+    li a{
+      font-family: $primaryFont;
+      font-size: 16px;
+      line-height: 26px; 
+      color: $textColor;
+      margin: 24px;
+      &:hover {
+        color: $primaryColor;
+      }
+      &.dropdown-item{
+        margin: 0;
+      }
+    }
+  
+    .nav-icons{
+      
+      a{
+        color: #11161E;
+        margin:12px ;
+        position: relative;
+        span{
+          position: absolute;
+          margin: -10px -13px;
+          color: #fff;
+          background-color: #FF6F61;
+          width: 13px;
+          height: 13px;
+          border-radius: 50%;
+          line-height: 18px;
+        }
+        i{
+          font-size: 18px;
+        }
+      }
+  
+    }
+  }
+}
+// manu endss here ...
+//sm manu starts here 
+#sm_manudesign{
+  .container{
+   .row{
+    .manu{
+      margin: 2% 0px;
+      font-size: 24px;
+      a{
+        color: #11161E;
+      }
+
+      .offcanvas-body{
+        .TIPES{
+          border: 2px red solid;
+          border-radius: 10px;
+          padding: 15px 0px;
+          a{
+            color: #11161E;
+            &:hover{
+              color: #FF6F61;
+            }
+
+          }
+          
+        }
+        #sm_manuItam{
+          .dropdown{
+            a{
+              font-family: $primaryFont;
+              font-size: 18px;
+              line-height: 26px; 
+              color: $textColor;
+             
+              &:hover {
+                color: $primaryColor;
+              }
+            }
+  
+          }
+          .liner{
+            width: 90%;
+            height: 3px;
+            background-color: #a9a8a8;
+          }
+        }
+
+      }
+    }
+    .smLogo{
+      a{
+        align-items: center;
+      }
+    }
+    .smIcon{
+      margin-top: 5%;
+      
+      a{
+        color: #11161E;
+        
+        position: relative;
+        span{
+          position: absolute;
+          margin: -10px -13px;
+          color: #fff;
+          background-color: #FF6F61;
+          width: 13px;
+          height: 13px;
+          border-radius: 50%;
+          line-height: 18px;
+        }
+        i{
+          font-size: 18px;
+        }
+      }
+    }
+   }
+  }
+}
+
+.manuActive{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  background-color: #F4F3F3;
+  animation: manuFixed 0.5s ease-in forwards;
+}
+@keyframes manuFixed{
+  0%{transform: translateY(-100%);}
+  100%{ transform: translateY(0%);}
+}
+
+//sm manu ends here ..
+// banner starts here  
+#banner_cnt{
+  position: relative;
+  .banner_slide{
+    height: 600px;
+    background-position: center;
+  background-size: cover;
+  object-fit: cover;
+    .banners{
+      h5{
+        font-family: $primaryFont;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 28px; 
+        color: #1d1d1d;
+        
+      }
+      h2{
+        font-family: $primaryFont;
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 74px;
+        color: #1d1d1d;
+        transition-delay: 400ms;
+      }
+      p{
+        font-family: $secondaryFont;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        color: #1d1d1d;
+        margin-top: 25px;
+        margin-right: 65px;
+        transition-delay: 600ms;
+      }
+      span a{
+        font-family: $secondaryFont;
+        font-size: 16px;
+        font-weight: 400;
+        display: inline-block;
+        margin-top: 40px;
+        padding: 16px 40px;
+        background-color: #FF6F61;
+        color: aliceblue;
+        transition-delay: 800ms;
+        
+      }
+      &>*{
+        transform: translateY(300px);
+        opacity: 0;
+        transition: 1s;
+      }
+      
+    }
+    &.slick-active .banners >*{
+      transform: translateY(0);
+      opacity: 1;
+      
+
+    }
+  }
+  .slick-dots{
+    position: absolute;
+    margin-top: -130px;
+    margin-left: 70px;
+    
+    
+    li {
+      &.slick-active{
+        width: 30px;
+        height: 10px;
+        background-color:$primaryColor;
+        border-radius: 10px;
+      }
+      margin-left: 10px;
+      button{
+        border: none;
+        width: 12px;
+        height: 10px;
+        border-radius: 10px;
+        background:$primaryColor;
+        color: transparent;
+
+      }
+      display: inline-block;
+      
+
+    }
+  
+    
+  }
+}
+// banner ends here ...
+// Beauty_Creams starts her e
+#Beauty_Creams{
+  margin-top: 70px;
+  .beauty_ca{
+    position: relative;
+    .overlay{
+      position: absolute;
+      background-color: rgba(0, 0, 0, 0.5);
+      inset: 20px;
+      color: white;
+      opacity: 0;
+      visibility: hidden;
+      h3{
+        margin-top: 25%;
+        text-align: center;
+      }
+    }
+
+    &:hover .overlay{
+      opacity: 1;
+      visibility: visible;
+      transition: 2s;
+    }
+  }
+  .big_c{
+    position: relative;
+    
+    .overlay{
+      position: absolute;
+      background-color: rgba(0, 0, 0, 0.5);
+      inset: 40px;
+      color: white;
+      opacity: 0;
+      visibility: hidden;
+      h3{
+        margin-top: 35%;
+        text-align: center;
+      }
+    }
+
+    &:hover .overlay{
+      opacity: 1;
+      visibility: visible;
+      transition: 1s;
+    }
+
+  }
+
+  img{
+    width: 100%;
+    
+  }
+
+}
+//Beauty_Creams ends here ....
+// product_card starts here 
+#product_card{
+  
+  margin-top: 80px;
+  .container{
+    position: relative;
+
+  }
+  .slider_button{
+    position: absolute;
+    margin-top: 10%;
+    
+
+  }
+  .product_card{
+    .product_img{
+      position: relative;
+      display: inline-block;
+      &:hover .img_hovers_icons{
+        visibility: visible;
+        opacity: 1;
+        transform: translateX(0px);
+  
+      }
+      
+      img{
+        width: 100%;
+        position: relative;
+
+      }
+     
+
+    }
+      .sale{
+      position: absolute;
+      top: 0px;
+      transform: rotate(-90deg);
+      span{ 
+        font-family: $primaryFont;
+        padding: 0px 13px 0 13px;
+        border-radius: 13px 0 0 13px;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 26px; 
+        color: aliceblue;
+        margin-top: 33px;
+        width: 56px;
+        height: 26px;
+        display: inline-block;
+        background-color:$primaryColor ;
+      }
+    }
+    .img_hovers_icons {
+      position: absolute;
+      top: 20%;
+      display: block;
+      right: 25px;
+      transform: translateX(-50px);
+      visibility: hidden;
+      opacity: 0;
+      transition: .8s ease-in-out;
+      transition-delay: calc(1s*var(--num));
+     
+      a{
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 36px;
+        margin: 5px;
+        display: inline-block;
+        color: #11161E;
+        background-color: aliceblue;
+        transition: 0.25s;
+        &:hover{
+          background-color: $primaryColor;
+          color:aliceblue
+        }
+      }
+    }
+  
+
+     
+    .product_text{
+      text-align: center;
+      p{
+        color: $paragraphColor;
+        font-family: $primaryFont;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px; 
+      }
+      h5{
+        color: $textColor;
+        font-family:$primaryFont;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px; 
+
+      }
+      span i{
+        margin: auto;
+        display:inline-block ;
+      }
+    }
+  }
+  
+}
+
+// product_card ends here...
+// Cream_banner starts here
+#Cream_banner{
+  margin-top: 150px;
+  .new_Cream_banner{
+    height: 524px;
+    background-position: center;
+  }
+  .Cream_bannerText{
+    align-items: center;
+   
+   h2{
+    font-size: 36px;
+    font-weight: 700;
+    color: $whitecolor;
+   }
+   p{
+    color: $whitecolor;
+    font-family: $secondaryColor;
+    font-size: 16px;
+    font-weight: 400
+
+   }
+   span a{
+    display: inline-block;
+    margin-top: 40px;
+    padding: 16px 40px;
+    background-color: $primaryColor;
+    color: aliceblue;
+   }
+  }
+}
+// Cream_banner endss here.....
+//Best_Seller starts here 
+#Best_Seller{
+  margin-top: 80px;
+  
+  span a{
+    display: inline-block;
+    margin: 0 40%;
+    margin-top: 60px;
+    padding: 16px 40px;
+    background-color: $primaryColor;
+    color: aliceblue;
+}
+  .Best_Seller{
+    .Best_Seller_img{
+      margin-top: 50px;
+      position: relative;
+      display: inline-block;
+      &:hover .img_hovers_icons{
+        visibility: visible;
+        opacity: 1;
+        transform: translateX(0px);
+  
+      }
+      img{
+        width: 280px;
+        height: 350px;
+
+      }
+    }
+      .sale{
+      position: absolute;
+      top: 0px;
+      transform: rotate(-90deg);
+      span{ 
+        font-family: $primaryFont;
+        padding: 0px 13px 0 13px;
+        border-radius: 13px 0 0 13px;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 26px; 
+        color: aliceblue;
+        margin-top: 33px;
+        width: 56px;
+        height: 26px;
+        display: inline-block;
+        background-color:$primaryColor ;
+      }
+    }
+    
+    .img_hovers_icons {
+      position: absolute;
+      top: 20%;
+      display: block;
+      right: 0px;
+      transform: translateX(-50px);
+      visibility: hidden;
+      opacity: 0;
+      transition: .8s ease-in-out;
+      
+        a{
+          width: 36px;
+          height: 36px;
+          border-radius: 50%;
+          text-align: center;
+          line-height: 36px;
+          margin: 5px;
+          display: inline-block;
+          color: #11161E;
+          background-color: aliceblue;
+          transition: 0.25s;
+          &:hover{
+            background-color: $primaryColor;
+            color:aliceblue
+          }
+        }
+
+      
+
+    
+    }
+    
+    
+
+    .Best_Seller_text{
+      text-align: center;
+      p{
+        color: $paragraphColor;
+        font-family: $primaryFont;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px; 
+      }
+      h5{
+        color: $textColor;
+        font-family:$primaryFont;
+        font-size: 16px;
+        font-weight: 400;
+      }
+     
+  }
+}
+}
+//Best_Seller ends here....
+// Bumper_offers starts here
+#Bumper_{
+  .container{
+    position: relative;
+    .bumper_slider{
+      .slick-dots{
+        position: absolute;
+        margin-top: 20px;
+        width: 100%;
+        display: flex;
+        justify-content: center !important; 
+
+        
+        li {
+          &.slick-active{
+            width: 26px;
+            height: 6px;
+            background-color:#151A32 ;
+            border-radius: 5px;
+          }
+          margin-left: 5px;
+          button{
+            border: none;
+            width: 10px;
+            height: 6px;
+            border-radius: 5px;
+            background:#151A32;
+            color: transparent;
+
+          }
+          display: inline-block;
+          
+
+        }
+      
+        
+      }
+      .Bumper_offers{
+        background-color: #A6AAB7;
+          height: 500px;
+          margin-right: 30px;
+        .bumper_cnt{
+          margin: 30px 160px 0px 30px;
+          h5{
+            font-family: $primaryFont;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 28px;
+          }
+          h2{
+            font-family: $primaryFont;
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 46px;
+            margin-top: 20px;
+          }
+          p{
+            font-family: $secondaryFont;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 28px; 
+            margin-top: 30px;
+          }
+          h4{
+            font-family: $primaryFont;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 30px;
+            margin-top: 40px;
+            margin-left: 0px;
+
+          }
+          span a{
+            font-family: $secondaryFont;
+            font-size: 16px;
+            font-weight: 400;
+            display: inline-block;
+            margin-top: 40px;
+            padding: 16px 40px;
+            background-color: #FF6F61;
+            color: aliceblue;
+            
+          }
+        }
+      }
+    
+    }
+  }
+}
+// Bumper_offers ends here....
+// SPECIAL OFFER starts here
+#special_offers{
+  background: var(--bg, #F1F3F4);
+  margin-top: 85px;
+  .special_offer{
+  margin-top: 100px;
+  padding: 100px 0px 100px 0px;
+    h5{
+      color: $paragraphColor;
+       font-family:$primaryFont;
+       font-size: 18px;
+       font-weight: 600;
+       line-height: 38px;
+    }
+    h2{
+      color:$textColor ;
+      font-family: $primaryColor;
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 46px; 
+    }
+    p{
+
+      color: $paragraphColor;
+      font-family: $secondaryFont;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 38px;
+    }
+    span a{
+      display: inline-block;
+      margin-top: 40px;
+      padding: 16px 40px;
+      background-color: $primaryColor;
+      color:aliceblue;
+  
+     }
+  }
+  .special_offer_video{
+    margin-top: 100px;
+  padding: 100px 0px 100px 0px;
+  img{
+    height: 450px;
+    width: 100%;
+    position: relative;
+  }
+  span{
+
+    a{
+      color: #11161E;
+      i{
+        position: absolute;
+        margin: 249px -341px;
+        font-size: 32px;
+        text-align: center;
+        &:hover{
+          width: 60px;
+          height: 60px;
+          border-radius: 50%;
+          background-color: #f1f3f4;
+          text-align: center;
+        }
+    
+      }
+    }
+  }
+  }
+}
+// SPECIAL OFFER ends here.....
+//Latest News staets here 
+#latest_news{
+  margin: 85px 0px;
+  position: relative;
+  background-color: #fff;
+  h2{
+    margin-top: 85px;
+    color: $textColor;
+    text-align: center;
+    font-family: $primaryFont;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46px;
+  }
+  .new_latest_card{
+
+    .slick-dots{
+      position: absolute;
+      margin-top: 20px;
+      width: 100%;
+      display: flex;
+      justify-content: center !important; 
+
+      
+      li {
+        &.slick-active{
+          width: 26px;
+          height: 6px;
+          background-color:#151A32 ;
+          border-radius: 5px;
+        }
+        margin-left: 5px;
+        button{
+          border: none;
+          width: 10px;
+          height: 6px;
+          border-radius: 5px;
+          background:#151A32;
+          color: transparent;
+
+        }
+        display: inline-block;
+        
+
+      }
+    
+      
+    }
+    .latest_card{
+      // box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px;
+      padding: 15px;
+      img{
+        width: 100%;
+      }
+      h3{margin-top: 30px;
+        color: $textColor;
+        font-family: $primaryFont;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 30px;
+      }
+      h5{
+        color:$paragraphColor;
+        font-family: $secondaryFont;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+      }
+      span{
+        
+        a{
+          display: inline-block;
+          color: $textColor;
+          font-family: $primaryFont;
+          font-size: 16px;
+          font-weight: 600;
+          display: inline-block;
+          line-height: 38px;
+        }
+        p{
+          color: $textColor;
+          font-family: $primaryFont;
+          font-size: 16px;
+          font-weight: 400;
+          display: inline-block;
+          
+        }
+  
+      }
+      
+  
+    }
+  }
+
+    
+  }
+
+
+//Latest News ends here ......
+// futter starts here
+#information_side{
+  position: relative;
+  background-color: $textColor;
+  margin-top: 150px;
+  .futter_manu{
+    padding-top: 150px;
+    
+    .icon{
+      margin: auto;
+      a{
+        padding: 4px;
+        line-height: 2px;
+        background-color:white;
+        color: #11161E;
+        &:hover{
+        
+          background-color: $primaryColor;
+          color: white;
+        }
+      }
+      .logo{
+        align-items: center;
+      }
+      
+
+    }
+  }
+  .line{
+    margin-top: 85px;
+    width: 100%;
+    height: 3px;
+    background-color: #ffffff;
+  }
+  .all_info{
+    margin-top: 85px;
+    
+    h3{
+      color: #ffff;
+      font-family: $secondaryFont;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 28px;
+      color: #F1F3F4;
+    }
+    h4{
+      color: #ffff;
+      font-family: $secondaryFont;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 28px;
+      margin: 0px;
+      
+    }
+    a{
+      color: #ffffff;
+      i{
+        color: #ffffff;
+      }
+      &:hover{
+        color: $primaryColor;
+        i{
+          color: $primaryColor;
+        }
+        
+      }
+    }
+    h5{
+      color: #ffff;
+      font-family: $secondaryFont;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 28px;
+      color: #F1F3F4;
+    }
+    .contuct_us{
+      i{
+        color: $primaryColor;
+      }
+    }
+  }
+  #shiping_plan{
+    position: absolute;
+    width: 90%;
+    margin-left: 5%;
+    background-color: #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;margin-top: -80px;
+  }
+}
+// futter ends here......
+
+// **HOME SECTION ENDSS HERE ---
+
+// ** ABOUT US PAGE STARTS HERE ....
+// banner starts here..
+#a_banner{
+  background-color: $textColor;
+  color: aliceblue;
+  height: 400px;
+  h5{
+    padding-top:150px;
+    font-family: $primaryFont;
+    font-size: 48px;
+    text-align: center;
+    font-weight: 700;
+  }
+  p{
+    font-family: $secondaryFont;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400;
+  }
+}
+// banner ends here...
+// ayetor shop start here ...
+#aetor_shop{
+  margin-top: 150px;
+  padding: 150px 0px;
+  background-color: #F1F3F4;
+  .aetor_img{
+    img{
+      width: 100%;
+    }
+  }
+  .aetor_shop_p{
+    margin-left: 80px;
+    background-color: #F1F3F4;
+    h2{
+      font-family: $primaryFont;
+      font-size: 36px;
+      font-weight: 700;
+      color: #11161E;
+    }
+    h5{
+      font-family: $secondaryFont;
+      font-size: 16px;
+      font-weight: 400;
+      color: #444;
+      line-height: 40px;
+      
+      i{
+         color: $primaryColor;
+      }
+
+    }
+    .line{
+      width: 85%;
+      height: 2px;
+      background-color: #bdbdbd;
+      margin: 50px 0px;
+    }
+    span a{
+      display: inline-block;
+      margin-top: 40px;
+      padding: 16px 40px;
+      background-color: $primaryColor;
+      color: aliceblue;
+     }
+
+  }
+}
+// ayrtor shop ends here ...
+// shiping starts here ...
+#shiping_a{
+  width: 90%;
+  text-align: center;
+  display: inline-block;
+  margin: 50px 0px;
+  padding: 50px 20px;
+  a{
+   
+    padding: 30px 15px;
+    border-radius: 50%;
+    background-color: #f1f3f4;
+    line-height: 75px;
+    &:hover{
+        background-color: $primaryColor;
+      
+    }
+  }
+  h5{
+    font-family: $primaryFont;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    color: $primaryColor;
+  }
+  p{
+    font-family: $secondaryFont;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    color: #151A32;
+  }
+}
+// shiping ends here ....
+// OUR STORY STARTS HERE ..
+#our_storys{
+  margin:75px 0px ;
+    padding: 100px 0px;
+    background-color: #f1f3f4;
+  .story_lines{
+    
+    h2{
+      font-family: $primaryFont;
+      font-size: 36px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 46px;
+    }
+    p{
+      font-family: $secondaryFont;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 28px;
+      color: #151A32;
+
+    }
+  }
+}
+// OUR STORY ENDS HERE ....
+//shiping_plan starts here 
+#shiping_plan{
+  background-color: #f1f3f4;
+  margin: 50px 0px;
+  padding: 50px 0px ;
+  h3{
+    font-family: $primaryFont;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px; 
+    color: #11161E;
+   
+
+  }
+  span{
+    color: $primaryColor;
+  }
+  p{
+    font-family: $secondaryFont;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+  }
+  a{
+    padding: 30px 15px;
+    border-radius: 50%;
+    background-color: $textColor;
+    line-height: 75px;
+    &:hover{
+        background-color: $primaryColor;
+      
+    }
+  }
+}
+//shiping_plan ends here 
+// Expert team starts here...
+#expert_team{
+  margin: 100px 0px;
+  img{
+    width: 100%;
+  }
+  h5{
+    font-family: $primaryFont;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    color: $textColor;
+    text-align: center;
+    margin-top: 15px;
+  }
+  p{
+    font-family: $secondaryFont;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px; 
+    color: $secondaryColor;
+    text-align: center;
+  }
+  a i{
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+    color: #11161E;
+    &:hover{
+      color: $primaryColor;
+    }
+  }
+  .expart_card{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    .card_text{
+      text-align: center;
+    }
+  }
+}
+// Expert team ends here ....
+// aetor instagram starts here...
+#aetor_instagram{
+  margin-top: 85px;
+  padding: 30px 0px;
+  h2{
+    font-family: $primaryFont;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46px; 
+    color: $textColor;
+    text-align: center;
+    margin: 20px 0px;
+  }
+  
+}
+// aetor instagram ends here....
+// ** ABOUT US PAGE ENDS HERE ----
+// ** SHOP GRID STARTS HERE ....
+#filter_product{
+    margin: 10px;
+    display: inline-block;
+    a{
+      font-size: 22px;
+    }
+  
+}
+// Shop - Grid card starts here
+#grid_product_card{
+  margin-top: 80px;
+  position: relative;
+  .product_card{
+    display: inline-block;
+    .product_img{
+      position: relative;
+      display: inline-block;
+      &:hover .img_hovers_icons{
+        visibility: visible;
+        opacity: 1;
+        transform: translateX(0px);
+  
+      }
+      img{
+        width: 100%;
+        height: 325px;
+      }
+
+    }
+      .sale{
+      position: absolute;
+      top: 0px;
+      transform: rotate(-90deg);
+      span{ 
+        font-family: $primaryFont;
+        padding: 0px 13px 0 13px;
+        border-radius: 13px 0 0 13px;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 26px; 
+        color: aliceblue;
+        margin-top: 33px;
+        width: 56px;
+        height: 26px;
+        display: inline-block;
+        background-color:$primaryColor ;
+      }
+    }
+      .img_hovers_icons {
+      position: absolute;
+      top: 30%;
+      display: block;
+      right: 25px;
+      transform: translateX(-50px);
+      visibility: hidden;
+      opacity: 0;
+      transition: .8s ease-in-out;
+      transition-delay: calc(1s*var(--num));
+      
+      a{
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 36px;
+        margin: 5px;
+        display: inline-block;
+        color: #11161E;
+        background-color: aliceblue;
+        transition: 0.25s;
+        &:hover{
+          background-color: $primaryColor;
+          color:aliceblue
+        }
+      }
+    }
+    .product_text{
+      text-align: center;
+      p{
+        color: $paragraphColor;
+        font-family: $primaryFont;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px; 
+      }
+      h5{
+        color: $textColor;
+        font-family:$primaryFont;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px; 
+
+      }
+      span i{
+        margin: auto;
+        display:inline-block ;
+      }
+    }
+  }
+  .slider_button{
+    position: absolute;
+    justify-content: space-between;
+    z-index: 99;
+    margin-top: 165px;
+    justify-content:space-between ;
+    i{font-size: 60px;}
+    a{
+      color: #1d1d1d;
+    }
+    
+    .left_slide{
+      display: inline-block;
+      
+    }
+    .right_slide{
+      display: inline-block;
+      align-items: right;
+    }
+  }
+}
+
+// Shop - Grid card ends here...
+// ** SHOP GRID ENDS HERE ...
+// Shop - Details starts here 
+#S-Details{
+  background-color: $textColor;
+  color: aliceblue;
+  height: 300px;
+  h5{
+    padding-top:150px;
+    font-family: $primaryFont;
+    font-size: 48px;
+    text-align: center;
+    font-weight: 700;
+  }
+  p{
+    font-family: $secondaryFont;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400;
+  }
+}
+// Shop_Details product starts here
+#Sp_Details{
+  margin-top: 80px;
+ 
+  .slide img{
+    width: 100%;
+
+  }
+
+  .Sp_Details_texts{
+    h3{
+      font-family:$primaryFont;
+      font-size: 36px;
+      color: #11161E;
+      font-weight: 700;
+      line-height: 46px;
+    }
+    .stars{
+      i{
+        color: $primaryColor;
+        
+      }
+    }
+    .prise_t{
+      margin-top: 20px;
+      .old_prise{
+        p{
+          font-family: Roboto;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 28px;
+          text-decoration: line-through;
+        }
+      }
+      
+      p{
+        font-family: $secondaryFont;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+      }
+      h5{
+        font-family: $primaryFont;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 30px;
+        
+      }
+    }
+    span{
+      p{
+        font-family: Roboto;
+        font-size: 16px;
+        color: #444;
+        font-weight: 400;
+        line-height: 28px;
+        margin-top: 40px;
+        
+      }
+    }
+    .line{
+      width: 100%;
+      height: 2px;
+      background-color: #5b5a5a;
+      margin-top: 30px;
+    }
+
+  }
+}
+
+// Shop_Details product ends here
+// Shop_Details Review starts here
+#Shop_Details_Review{
+  .row{
+    .info{
+      width: 300px;
+      height: 60px;
+      background-color: #444;
+      h5{
+        font-family: $primaryFont;
+        font-size: 20px;
+        color: #F1F3F4;
+        font-weight: 700;
+        line-height: 30px;
+        text-align: center;
+        margin-top:20px ;
+      }
+      &:hover{
+        background-color: $primaryColor;
+      }
+    }
+    margin-left: 10%;
+    margin-top: 130px;
+    
+  }
+  p{
+    margin-top: 50px;
+    font-family: $secondaryFont;
+    font-size: 16px;
+    color: #444;
+    font-weight: 400;
+    line-height: 28px;
+  }
+}
+#new_product_slider{
+  .product_img{
+    img{
+      height: 280px;
+    }
+  }
+}
+// Shop_Details Review ends here ...
+// Shop - Details ends here ...
+
+.scrollToTop{
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  background-color: none;
+  display: none;
+  
+}
+.scrollToTop button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  
+  
+}
+
+.scrollToTop button i{
+  font-size: 40px;
+  
+}
+.dark{
+  position: fixed;
+  right: 40px;
+  bottom: 110px;
+  background-color: none;
+ 
+}
+.dark button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.dark button i{
+  font-size: 40px;
+  color: black;
+}
+

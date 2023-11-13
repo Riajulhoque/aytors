@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Aytor </title>
+
+  <!-- css starts here  -->
+  <link rel="stylesheet" href="./Scss/">
+  <link rel="stylesheet" href="./Scss/all.min.css">
+  <link rel="stylesheet" href="./Scss/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./Scss/slick.css">
+  <link rel="stylesheet" href="./Scss/style.css">
+  <!-- css ends here  -->
+
+</head>
+<body>
+
+  <!-- manu starts here  -->
+  <nav id="navdesign" class="navbar navbar-expand-lg d-none d-lg-block w-100">
+    <div class="container">
+        <div class="container-fluid col-3">
+          <a class="navbar-brand" href="#"><img src="./images/Logo.png" alt=""></a>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"  aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+     <div class="collapse navbar-collapse col-7" id="main_nav">
+       <ul class="navbar-nav">
+         <li class="nav-item active"> <a href="./index.html">Home </a> </li>
+         <li class="nav-item dropdown">
+           <a class="dropdown-toggle" href="#" data-bs-toggle="dropdown"> Shop </a>
+           <ul class="dropdown-menu">
+             <li><a class="dropdown-item" href="./grid.html"> Grid</a></li>
+             <li><a class="dropdown-item" href="./details.html"> Details </a></li>
+             <li><a class="dropdown-item" href="#"> item 3 </a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="dropdown-toggle" href="#" data-bs-toggle="dropdown"> Pages </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./aboutUs.html">About Us</a></li>
+              <li><a class="dropdown-item" href="#">item 2 </a></li>
+              <li><a class="dropdown-item" href="#">item 3 </a></li>
+            </ul>
+          </li>
+         <li class="nav-item dropdown">
+           <a class="dropdown-toggle" href="#" data-bs-toggle="dropdown"> Features </a>
+           <ul class="dropdown-menu">
+             <li><a class="dropdown-item" href="#">item 1</a></li>
+             <li><a class="dropdown-item" href="#">item 2 </a></li>
+             <li><a class="dropdown-item" href="#">item 3 </a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="dropdown-toggle" href="#" data-bs-toggle="dropdown">Blogs </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">item 1</a></li>
+              <li><a class="dropdown-item" href="#">item 2 </a></li>
+              <li><a class="dropdown-item" href="#">item 3 </a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a href="#">Contact </a></li>
+        </ul>
+        
+        
+      </div> 
+      <div class="nav-icons col-2">
+       <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+       <a href="#"><i class="fa-solid fa-user"></i></a>
+       <a href="#"><i class="fa-solid fa-heart"></i></a>
+       <a href="#"><i class="fa-solid fa-bag-shopping"></i>
+        <span>0</span></a>
+        
+      </div>
+    </div>
+    
+  </nav>
+  <!-- manu ends here  -->
+  <!-- sm-manu starts here -->
+  <section id="sm_manudesign" class=" d-block d-lg-none">
+    <div class="container w-100">
+      <div class="row w-100">
+        <div class="manu col-3">
+          <button class="btn " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+           <span><a href="#"> <i class="fa-solid fa-bars"></i></a></span>
+          </button>
+          
+          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasExampleLabel"><img src="./images/Logo.png" alt=""></h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <div class="TIPES row">
+                <div class="MENU col-6"><a href="#"> MENU</a></div>
+                <div class="CATRGORIES col-6"> <H3><a href="#">CATRGORIES</a></H3></div>
+              </div>
+  
+              <section id="sm_manuItam">
+                <div class="dropdown mt-3">
+                  <button class="btn" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+                    <a href="./index.html">Home </a>
+                  </button>
+                </div>
+                <div class="liner"></div>
+                <div class="dropdown mt-3">
+                  <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+                    <a href="#">Shop </a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <li><a class="dropdown-item" href="./grid.html">Grid</a></li>
+                      <li><a class="dropdown-item" href="./details.html"> Details</a></li>
+                      <li><a class="dropdown-item" href="#">iteam 3 </a></li>
+                    </ul>
+                  </button>
+                </div>
+                <div class="liner"></div>
+                <div class="dropdown mt-3">
+                  <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+                    <a href="#">Pages </a>
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li><a class="dropdown-item" href="./aboutUs.html">About Us</a></li>
+                    <li><a class="dropdown-item" href="#"> iteam 2 </a></li>
+                    <li><a class="dropdown-item" href="#">iteam 3</a></li>
+                  </ul>
+                </div>
+                <div class="liner"></div>
+                <div class="dropdown mt-3">
+                  <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+                    <a href="#">Features </a>
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li><a class="dropdown-item" href="#">iteam 1</a></li>
+                    <li><a class="dropdown-item" href="#">iteam 2</a></li>
+                    <li><a class="dropdown-item" href="#">iteam 3</a></li>
+                  </ul>
+                </div>
+                <div class="liner"></div>
+                <div class="dropdown mt-3">
+                  <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+                    <a href="#">Blogs </a>
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li><a class="dropdown-item" href="#">iteam 1</a></li>
+                    <li><a class="dropdown-item" href="#">iteam 2</a></li>
+                    <li><a class="dropdown-item" href="#">iteam 3</a></li>
+                  </ul>
+                </div>
+                <div class="liner"></div>
+                <div class="dropdown mt-3">
+                  <button class="btn" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+                    <a href="./index.html"> Contact</a>
+                  </button>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+        <div class="smLogo col-6">
+          <a class="navbar-brand" href="#"><img src="./images/Logo.png" alt=""></a>
+        </div>
+        <div class="smIcon col-3">
+          <a href="#"><i class="fa-solid fa-bag-shopping"></i>
+          <span>0</span></a>
+        </div>
+      </div>
+      
+    </div>
+  
+  </section>
+  <!-- sm-manu ends here -->
+<section id="a_banner">
+  <h5>Shop - Grid</h5>
+  <p>Home  /  Shop</p>
+  
+  </section>
+
+<!-- Shop - Grid card starts here -->
+<section id="grid_product_card" >
+  <div class="container">
+    <div class="row">
+    
+  <div class="product_card col-lg-3 col-sm-6 ">
+    <div class="product_img">
+      <img src="./images/shirt1.png" alt="">
+      <div class="sale">
+        <span>-45%</span>
+      </div>
+      <div class="img_hovers_icons">
+        <ul>
+          <li><a  data-bs-toggle="tooltip" data-bs-placement="left"
+                  data-bs-title="Add to cart" href="#">
+            <i class="fa-sharp fa-solid fa-cart-shopping"></i></a></li>
+          <li><a data-bs-toggle="tooltip" data-bs-placement="left"
+            data-bs-title="Add to cart" href="#"><i class="fa-solid fa-heart"></i></a></li>
+          <li><a data-bs-toggle="tooltip" data-bs-placement="left"
+            data-bs-title="Add to cart" href="#"><i class="fa-solid fa-eye"></i></a></li>
+          <li><a data-bs-toggle="tooltip" data-bs-placement="left"
+            data-bs-title="Add to cart" href="#"><i class="fa-solid fa-signal"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="product_text">
+      <p>$150.65</p>
+      <h5>Lotion Shower gel</h5>
+      <span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+    </div>
+  </div>
+  <div class="product_card col-lg-3 col-sm-6 ">
+    <div class="product_img">
+      <img src="./images/shirt2.png" alt="">
+      <div class="sale">
+        <span>Sale</span>
+      </div>
+      <div class="img_hovers_icons">
+        <ul>
+          <li><a  data-bs-toggle="tooltip" data-bs-placement="left"
+                  data-bs-title="Add to cart" href="#">
+            <i class="fa-sharp fa-solid fa-cart-shopping"></i></a></li>
+          <li><a data-bs-toggle="tooltip" data-bs-placement="left"
+            data-bs-title="Add to cart" href="#"><i class="fa-solid fa-heart"></i></a></li>
+          <li><a data-bs-toggle="tooltip" data-bs-placement="left"
+            data-bs-title="Add to cart" href="#"><i class="fa-solid fa-eye"></i></a></li>
+          <li><a data-bs-toggle="tooltip" data-bs-placement="left"
+            data-bs-title="Add to cart" href="#"><i class="fa-solid fa-signal"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="product_text">
+      <p>$250.65</p>
+      <h5>Argan Cream Body Butter</h5>
+      <span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+    </div>
+  </div>
+  <div class="product_card col-lg-3 col-sm-6 ">
+    <div class="product_img">
+      <img src="./images/dress1.png" alt="">
+      <div class="sale">
+        <span>Sale</span>
+      </div>
+      <div class="img_hovers_icons">
+        <ul>
+          <li><a  data-bs-toggle="tooltip" data-bs-placement="left"
+                  data-bs-title="Add to cart" href="#">
+            <i class="fa-sharp fa-solid fa-cart-shopping"></i></a></li>
+          <li><a data-bs-toggle="tooltip" data-bs-placement="left"
+            data-bs-title="Add to cart" href="#"><i class="fa-solid fa-heart"></i></a></li>
+          <li><a data-bs-toggle="tooltip" data-bs-placement="left"
+            data-bs-title="Add to cart" href="#"><i class="fa-solid fa-eye"></i></a></li>
+          <li><a data-bs-toggle="tooltip" data-bs-placement="left"
+            data-bs-title="Add to cart" href="#"><i class="fa-solid fa-signal"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="product_text">
+      <p>$175.65</p>
+      <h5>Compact Face Powder</h5>
+      <span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+    </div>
+  </div>
+  <div class="product_card col-lg-3 col-sm-6 ">
+    <div class="product_img">
+      <img src="./images/dress2.png" alt="">
+      <div class="sale">
+        <span>-55%</span>
+      </div>
+      <div class="img_hovers_icons">
+        <ul>
+          <li><a  data-bs-toggle="tooltip" data-bs-placement="left"
+                  data-bs-title="Add to cart" href="#">
+            <i class="fa-sharp fa-solid fa-cart-shopping"></i></a></li>
+          <li><a data-bs-toggle="tooltip" data-bs-placement="left"
+            data-bs-title="Add to cart" href="#"><i class="fa-solid fa-heart"></i></a></li>
+          <li><a data-bs-toggle="tooltip" data-bs-placement="left"
+            data-bs-title="Add to cart" href="#"><i class="fa-solid fa-eye"></i></a></li>
+          <li><a data-bs-toggle="tooltip" data-bs-placement="left"
+            data-bs-title="Add to cart" href="#"><i class="fa-solid fa-signal"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="product_text">
+      <p>$150.65</p>
+      <h5>Lotion Shower gel</h5>
+      <span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+    </div>
+  </div>
+  <div class="product_card col-lg-3 col-sm-6 ">
+    <div class="product_img">
+      <img src="./images/shirt3.png" alt="">
+      <div class="sale">
+        <span>New</span>
+      </div>
+      <div class="img_hovers_icons">
+        <ul>
+          <li><a  data-bs-toggle="tooltip" data-bs-placement="left"
+                  data-bs-title="Add to cart" href="#">
+            <i class="fa-sharp fa-solid fa-cart-shopping"></i></a></li>
+          <li><a data-bs-toggle="tooltip" data-bs-placement="left"
+            data-bs-title="Add to cart" href="#"><i class="fa-solid fa-heart"></i></a></li>
+          <li><a data-bs-toggle="tooltip" data-bs-placement="left"
+            data-bs-title="Add to cart" href="#"><i class="fa-solid fa-eye"></i></a></li>
+          <li><a data-bs-toggle="tooltip" data-bs-placement="left"
+            data-bs-title="Add to cart" href="#"><i class="fa-solid fa-signal"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="product_text">
+      <p>$250.65</p>
+      <h5>Argan Cream Body Butter</h5>
+      <span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+    </div>
+  </div>
+  <div class="product_card col-lg-3 col-sm-6 ">
+    <div class="product_img">
+      <img src="./images/shirt4.png" alt="">
+      <div class="sale">
+        <span>Sale</span>
+      </div>
+      <div class="img_hovers_icons">
+        <ul>
+          <li><a  data-bs-toggle="tooltip" data-bs-placement="left"
+                  data-bs-title="Add to cart" href="#">
+            <i class="fa-sharp fa-solid fa-cart-shopping"></i></a></li>
+          <li><a data-bs-toggle="tooltip" data-bs-placement="left"
+            data-bs-title="Add to cart" href="#"><i class="fa-solid fa-heart"></i></a></li>
+          <li><a data-bs-toggle="tooltip" data-bs-placement="left"
+            data-bs-title="Add to cart" href="#"><i class="fa-solid fa-eye"></i></a></li>
+          <li><a data-bs-toggle="tooltip" data-bs-placement="left"
+            data-bs-title="Add to cart" href="#"><i class="fa-solid fa-signal"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="product_text">
+      <p>$175.65</p>
+      <h5>Compact Face Powder</h5>
+      <span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+    </div>
+  </div>
+  <div class="product_card col-lg-3 col-sm-6 ">
+    <div class="product_img">
+      <img src="./images/dress3.png" alt="">
+      <div class="sale">
+        <span>-45%</span>
+      </div>
+      <div class="img_hovers_icons">
+        <ul>
+          <li><a  data-bs-toggle="tooltip" data-bs-placement="left"
+                  data-bs-title="Add to cart" href="#">
+            <i class="fa-sharp fa-solid fa-cart-shopping"></i></a></li>
+          <li><a data-bs-toggle="tooltip" data-bs-placement="left"
+            data-bs-title="Add to cart" href="#"><i class="fa-solid fa-heart"></i></a></li>
+          <li><a data-bs-toggle="tooltip" data-bs-placement="left"
+            data-bs-title="Add to cart" href="#"><i class="fa-solid fa-eye"></i></a></li>
+          <li><a data-bs-toggle="tooltip" data-bs-placement="left"
+            data-bs-title="Add to cart" href="#"><i class="fa-solid fa-signal"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="product_text">
+      <p>$150.65</p>
+      <h5>Lotion Shower gel</h5>
+      <span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+    </div>
+  </div>
+  <div class="product_card col-lg-3 col-sm-6 ">
+    <div class="product_img">
+      <img src="./images/dress4.png" alt="">
+      <div class="sale">
+        <span>Sale</span>
+      </div>
+      <div class="img_hovers_icons">
+        <ul>
+          <li><a  data-bs-toggle="tooltip" data-bs-placement="left"
+                  data-bs-title="Add to cart" href="#">
+            <i class="fa-sharp fa-solid fa-cart-shopping"></i></a></li>
+          <li><a data-bs-toggle="tooltip" data-bs-placement="left"
+            data-bs-title="Add to cart" href="#"><i class="fa-solid fa-heart"></i></a></li>
+          <li><a data-bs-toggle="tooltip" data-bs-placement="left"
+            data-bs-title="Add to cart" href="#"><i class="fa-solid fa-eye"></i></a></li>
+          <li><a data-bs-toggle="tooltip" data-bs-placement="left"
+            data-bs-title="Add to cart" href="#"><i class="fa-solid fa-signal"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="product_text">
+      <p>$250.65</p>
+      <h5>Argan Cream Body Butter</h5>
+      <span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+    </div>
+  </div>
+  <div class="product_card col-lg-3 col-sm-6 ">
+    <div class="product_img">
+      <img src="./images/shirt2.png" alt="">
+      <div class="sale">
+        <span>Sale</span>
+      </div>
+      <div class="img_hovers_icons">
+        <ul>
+          <li><a  data-bs-toggle="tooltip" data-bs-placement="left"
+                  data-bs-title="Add to cart" href="#">
+            <i class="fa-sharp fa-solid fa-cart-shopping"></i></a></li>
+          <li><a data-bs-toggle="tooltip" data-bs-placement="left"
+            data-bs-title="Add to cart" href="#"><i class="fa-solid fa-heart"></i></a></li>
+          <li><a data-bs-toggle="tooltip" data-bs-placement="left"
+            data-bs-title="Add to cart" href="#"><i class="fa-solid fa-eye"></i></a></li>
+          <li><a data-bs-toggle="tooltip" data-bs-placement="left"
+            data-bs-title="Add to cart" href="#"><i class="fa-solid fa-signal"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="product_text">
+      <p>$175.65</p>
+      <h5>Compact Face Powder</h5>
+      <span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+    </div>
+  </div>
+  <div class="product_card col-lg-3 col-sm-6 ">
+    <div class="product_img">
+      <img src="./images/dress5.png" alt="">
+      <div class="sale">
+        <span>-55%</span>
+      </div>
+      <div class="img_hovers_icons">
+        <ul>
+          <li><a  data-bs-toggle="tooltip" data-bs-placement="left"
+                  data-bs-title="Add to cart" href="#">
+            <i class="fa-sharp fa-solid fa-cart-shopping"></i></a></li>
+          <li><a data-bs-toggle="tooltip" data-bs-placement="left"
+            data-bs-title="Add to cart" href="#"><i class="fa-solid fa-heart"></i></a></li>
+          <li><a data-bs-toggle="tooltip" data-bs-placement="left"
+            data-bs-title="Add to cart" href="#"><i class="fa-solid fa-eye"></i></a></li>
+          <li><a data-bs-toggle="tooltip" data-bs-placement="left"
+            data-bs-title="Add to cart" href="#"><i class="fa-solid fa-signal"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="product_text">
+      <p>$150.65</p>
+      <h5>Lotion Shower gel</h5>
+      <span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+    </div>
+  </div>
+  <div class="product_card col-lg-3 col-sm-6 ">
+    <div class="product_img">
+      <img src="./images/shirt6.png" alt="">
+      <div class="sale">
+        <span>New</span>
+      </div>
+      <div class="img_hovers_icons">
+        <ul>
+          <li><a  data-bs-toggle="tooltip" data-bs-placement="left"
+                  data-bs-title="Add to cart" href="#">
+            <i class="fa-sharp fa-solid fa-cart-shopping"></i></a></li>
+          <li><a data-bs-toggle="tooltip" data-bs-placement="left"
+            data-bs-title="Add to cart" href="#"><i class="fa-solid fa-heart"></i></a></li>
+          <li><a data-bs-toggle="tooltip" data-bs-placement="left"
+            data-bs-title="Add to cart" href="#"><i class="fa-solid fa-eye"></i></a></li>
+          <li><a data-bs-toggle="tooltip" data-bs-placement="left"
+            data-bs-title="Add to cart" href="#"><i class="fa-solid fa-signal"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="product_text">
+      <p>$250.65</p>
+      <h5>Argan Cream Body Butter</h5>
+      <span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+    </div>
+  </div>
+  <div class="product_card col-lg-3 col-sm-6 ">
+    <div class="product_img">
+      <img src="./images/dress1.png" alt="">
+      <div class="sale">
+        <span>Sale</span>
+      </div>
+      <div class="img_hovers_icons">
+        <ul>
+          <li><a  data-bs-toggle="tooltip" data-bs-placement="left"
+                  data-bs-title="Add to cart" href="#">
+            <i class="fa-sharp fa-solid fa-cart-shopping"></i></a></li>
+          <li><a data-bs-toggle="tooltip" data-bs-placement="left"
+            data-bs-title="Add to cart" href="#"><i class="fa-solid fa-heart"></i></a></li>
+          <li><a data-bs-toggle="tooltip" data-bs-placement="left"
+            data-bs-title="Add to cart" href="#"><i class="fa-solid fa-eye"></i></a></li>
+          <li><a data-bs-toggle="tooltip" data-bs-placement="left"
+            data-bs-title="Add to cart" href="#"><i class="fa-solid fa-signal"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="product_text">
+      <p>$175.65</p>
+      <h5>Compact Face Powder</h5>
+      <span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+    </div>
+  </div>
+    </div>
+  
+
+</div>
+</section>
+
+
+<!-- Shop - Grid card ends here -->
+<!-- Latest News ends here -->
+<section id="information_side">
+  <div class="container">
+  <div class="futter_manu">
+    <div class="row">
+      <div class="icon col-3">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+      </div>
+      <div class="logo col-6">
+        <img src="./images/Logo 2.png" alt="">
+      </div>
+      <div class="card col-3">
+        <input type="text" placeholder="Enter your email..." class="col border-0">
+  
+      </div>
+  
+    </div>
+  </div>
+  <div class="line"></div>
+  <div class="row all_info">
+    <div class="my_Account col-2">
+      <h3>My Account</h3>
+      <a href="#"> <h4>My Account</h4> </a><br>
+      <a href="#"> <h4>View Cart</h4> </a><br>
+      <a href="#"> <h4>Wishlist</h4> </a><br>
+      <a href="#"> <h4>Compare</h4> </a><br>
+      <a href="#"> <h4>New Products</h4> </a><br>
+    </div>
+    <div class="support col-2">
+      <h3> Support</h3>
+      <a href="#"><h4>Help</h4></a><br>
+      <a href="#"><h4>Contact</h4> Us</a><br>
+      <a href="#"><h4>Feedback</h4></a><br>
+      <a href="#"><h4>Customer Service</h4></a><br>
+      <a href="#"><h4>Store Locations</h4></a>
+  
+    </div>
+    <div class="opening_Time col-2">
+      <h3>Opening Time</h3>
+      <h5>Mon - Tue: 8AM - 10PM</h5>
+      <h5>Wed:8AM - 7PM</h5>
+      <h5>Fri:7AM - 12PM</h5>
+      <h5>Sat:9AM - 8PM</h5>
+      <h5>Sun:Closed</h5>
+    </div>
+    <div class="contuct_us col-3">
+      <h3>Contact Us</h3>
+      <h5> <i class="fa-solid fa-location-dot"></i>  830 Broad way, New York, NY 10003,
+        United States</h5><br>
+        <a href="#"><i class="fa-solid fa-phone"> <h5>+18008660286</h5></i></a><br>
+      <a href="#"> <i class="fa-solid fa-envelope"><h5>aetor.info@gmail.com</h5></i></a>
+    </div>
+    <div class="news_letter col-3">
+      <h3>News Letter</h3>
+      <h5>Authoritatively morph 24/7 potentialities with error-free partnerships.</h5>
+    </div>
+  </div>
+  </div>
+  </section> 
+  <!-- futter ends here -->
+<!-- script starts here  -->
+<script src="./JS/code.jquery.com_jquery-3.7.0.min.js"></script>
+<script src="./JS/js/bootstrap.bundle.min.js"></script>
+<script src="./JS/slick.min.js"></script>
+<script src="./JS/app.js"></script>
+  <!-- script ends here -->
+</body>
+</html>

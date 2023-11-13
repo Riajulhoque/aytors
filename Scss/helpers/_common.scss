@@ -1,0 +1,54 @@
+// common sterts here
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ a{
+  text-decoration: none;
+ }
+ ul,li{
+  list-style: none;
+ }
+ h1,h2,h3,h4,h5,h6,p,ul,li{
+  margin: 0;
+  padding: 0;
+ }
+ body{
+  font-family: 'Josefin Sans', sans-serif;
+ }
+ 
+h4{
+    margin-left: 35%;
+    display: inline-block;
+    font-family: Josefin Sans;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    color: #11161E;
+    text-align: center;
+    line-height: 150px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .slider_button{
+   
+    i{font-size: 60px;}
+    a{
+      color: #1d1d1d;
+    }
+    
+    .left_slide{
+      display: inline-block;
+      position: absolute;
+      left: 0;
+      top: 50%;
+      
+    }
+    .right_slide{
+      position: absolute;
+      display: inline-block;
+     right: 0;
+     top: 50%;
+    }
+  }
+// common ends here

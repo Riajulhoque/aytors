@@ -1,0 +1,191 @@
+@media (min-width: 320px) and (max-width: 576px) {
+  #banner_cnt .banner_slide .banners h2 {
+    font-size: 35px;
+    margin-right: none;
+  }
+  #banner_cnt .banner_slide .banners p {
+    font-size: 16px;
+    margin-top: 5px;
+    margin-right: -14px;
+  }
+  #banner_cnt .banner_slide .banners span a {
+    margin-top: 32px;
+    padding: 11px 22px;
+  }
+  #banner_cnt .slick-dots {
+    margin-left: 20px;
+  }
+  #product_card {
+    margin: auto;
+  }
+  #product_card h4 {
+    font-size: 30px;
+  }
+  #product_card .slider_button {
+    display: none;
+  }
+  #product_card .product_card {
+    text-align: center;
+  }
+  #Cream_banner .Cream_bannerText h2 {
+    font-size: 28px;
+  }
+  #Cream_banner .Cream_bannerText p {
+    margin-right: 45px;
+  }
+  #Cream_banner .Cream_bannerText span a {
+    margin-top: 32px;
+    padding: 11px 22px;
+  }
+  #Best_Seller {
+    margin-top: 30px;
+  }
+  #Best_Seller h4 {
+    margin-left: 22%;
+    font-size: 30px;
+  }
+  #Best_Seller .Best_Seller {
+    text-align: center;
+  }
+  #Best_Seller .Best_Seller .img_hovers_icons a {
+    margin: 5px 20px;
+    transition: 0.25s;
+  }
+  #Best_Seller span {
+    text-align: center;
+  }
+  #Best_Seller span a {
+    margin: 40px 13%;
+  }
+  #Bumper_ h4 {
+    margin: 40px 22%;
+    font-size: 30px;
+    line-height: 110px;
+  }
+  #Bumper_ .container .bumper_slider .Bumper_offers {
+    background-color: #A6AAB7;
+    height: 500px;
+    margin-right: 33px;
+    width: 300px;
+  }
+  #Bumper_ .container .bumper_slider .Bumper_offers .bumper_cnt {
+    margin: 30px 30px 0px 30px;
+  }
+  #Bumper_ .container .bumper_slider .Bumper_offers .bumper_cnt span a {
+    font-size: 14px;
+    padding: 12px 25px;
+  }
+  #special_offers {
+    margin: 20px;
+  }
+  #special_offers .special_offer {
+    margin: 0px 15px;
+    padding: 60px 0px 60px 0px;
+  }
+  #special_offers .special_offer h5 {
+    font-size: 15px;
+  }
+  #special_offers .special_offer h2 {
+    font-size: 30px;
+  }
+  #special_offers .special_offer p {
+    font-size: 10px;
+    line-height: 26px;
+  }
+  #special_offers .special_offer span a {
+    font-size: 14px;
+    padding: 12px 25px;
+    margin-top: 28px;
+  }
+  #special_offers .special_offer_video {
+    padding: 60px 0px 60px 0px;
+  }
+  #special_offers .special_offer_video img {
+    height: 300px;
+  }
+  #special_offers .special_offer_video span a i {
+    margin: 173px -187px;
+  }
+  #latest_news .container .new_latest_card {
+    margin: 40px;
+  }
+  #shiping_plan .container .text {
+    display: none;
+  }
+  #information_side #shiping_plan a {
+    line-height: 30px;
+  }
+  #information_side .container .futter_manu .icon a {
+    padding: 5px;
+  }
+  #information_side .container .all_info h3 {
+    font-size: 10px;
+    font-weight: 700;
+  }
+  #information_side .container .all_info h4 {
+    font-size: 10px;
+    font-weight: 500;
+    text-align: left;
+  }
+  #information_side .container .all_info h5 {
+    font-size: 10px;
+    font-weight: 500;
+    text-align: left;
+  }
+  #information_side .container .all_info a {
+    margin: 0px;
+    line-height: 0px;
+  }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  #information_side #shiping_plan .container a {
+    line-height: 30px;
+  }
+  #information_side #shiping_plan .container .text {
+    display: none;
+  }
+  #information_side .container .all_info h3 {
+    font-size: 10px;
+    font-weight: 700;
+  }
+  #information_side .container .all_info h4 {
+    font-size: 10px;
+    font-weight: 500;
+    text-align: left;
+  }
+  #information_side .container .all_info h5 {
+    font-size: 10px;
+    font-weight: 500;
+    text-align: left;
+  }
+  #information_side .container .all_info a {
+    margin: 0px;
+    line-height: 0px;
+  }
+}
+@media (min-width: 769px) and (max-width: 991px) {
+  #information_side #shiping_plan .container a {
+    line-height: 30px;
+  }
+  #information_side #shiping_plan .container .text {
+    display: none;
+  }
+  #information_side .container .all_info h3 {
+    font-size: 10px;
+    font-weight: 700;
+  }
+  #information_side .container .all_info h4 {
+    font-size: 10px;
+    font-weight: 500;
+    text-align: left;
+  }
+  #information_side .container .all_info h5 {
+    font-size: 10px;
+    font-weight: 500;
+    text-align: left;
+  }
+  #information_side .container .all_info a {
+    margin: 0px;
+    line-height: 0px;
+  }
+}/*# sourceMappingURL=responsive.css.map */
